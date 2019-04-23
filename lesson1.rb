@@ -1,15 +1,5 @@
 # FizzBuzz
-def fizz_buzz num
-  if(num%15==0)
-    puts "Fizz Buzz"
-  elsif(num%3==0)
-    puts "Fizz"
-  elsif(num%5==0)
-    puts "Buzz"
-  else
-    puts num
-  end
-end
+require './fizzbuzz'
 
 nums=1..100
 nums.each do |num|
