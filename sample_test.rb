@@ -8,5 +8,6 @@ class SampleTest < Minitest::Test
   # def fb_test
     assert_equal "Fizz Buzz", fizz_buzz(15)
     assert_equal "Buzz", fizz_buzz(5)
+    assert_equal "Fizz Buzz", fizz_buzz(16)
   end
 end
